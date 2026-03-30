@@ -2,55 +2,157 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>Portfólio - Alexandre Albuquerque</title>
+<title>Portfólio - Alexandre Oliveira de Albuquerque</title>
+
 <style>
 body {
-    font-family: Arial;
-    background: #0d1117;
-    color: #c9d1d9;
     margin: 0;
+    font-family: 'Segoe UI', Arial;
+    background: #0a192f;
+    color: #ccd6f6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
     padding: 40px;
 }
+
 h1 {
+    color: #64ffda;
+    font-size: 36px;
+}
+
+h2 {
     color: #58a6ff;
+    margin-top: 40px;
 }
-.container {
-    max-width: 900px;
-    margin: auto;
+
+p {
+    line-height: 1.6;
 }
+
 .card {
-    background: #161b22;
+    background: #112240;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
 }
+
+.card:hover {
+    transform: translateY(-5px);
+    border: 1px solid #58a6ff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    color: #8892b0;
+}
+
+.badge {
+    display: inline-block;
+    background: #1f6feb;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
 </style>
 </head>
+
 <body>
 
 <div class="container">
 
+<div class="header">
 <h1>Alexandre Oliveira de Albuquerque</h1>
-<p>Desenvolvedor Full Stack especialista em sistemas corporativos.</p>
+<p class="subtitle">
+Desenvolvedor de Software Full Stack especializado em sistemas corporativos, integrações e APIs de alta performance.
+</p>
+</div>
+
+<h2>🚀 Projetos</h2>
 
 <div class="card">
-<h2>🔐 SIAPEN</h2>
-<p>Sistema prisional usado em todo MS, com reconhecimento facial, GED e controle completo.</p>
+<h3>🔐 SIAPEN – Sistema Prisional</h3>
+<p>
+Sistema utilizado em todas as unidades prisionais do Mato Grosso do Sul.
+</p>
+<ul>
+<li>Gestão completa de internos</li>
+<li>Reconhecimento facial integrado via API própria</li>
+<li>Controle disciplinar e atendimento médico</li>
+<li>GED (gestão documental)</li>
+<li>Controle financeiro e contábil</li>
+</ul>
 </div>
 
 <div class="card">
-<h2>🏢 ERP Corporativo</h2>
-<p>Financeiro, fiscal, RH, estoque e NF-e totalmente integrados.</p>
+<h3>🏢 ERP Corporativo</h3>
+<p>
+Sistema completo para empresas de médio e grande porte.
+</p>
+<ul>
+<li>Financeiro, fiscal e contábil integrados</li>
+<li>RH e folha de pagamento</li>
+<li>Controle de estoque e compras</li>
+<li>Emissão de NF-e</li>
+<li>Replicação de dados para ambientes offline</li>
+</ul>
 </div>
 
 <div class="card">
-<h2>💳 CRM Cooperativa</h2>
-<p>Sistema com análise de crédito, metas e integração com SERASA.</p>
+<h3>💳 CRM para Cooperativas de Crédito</h3>
+<p>
+Sistema com mais de 20 mil cooperados, focado em vendas e análise de crédito.
+</p>
+<ul>
+<li>Gestão de vendas em Kanban</li>
+<li>Análise preditiva de crédito</li>
+<li>Integração com SERASA via API própria</li>
+<li>Automação de cobrança e negativação</li>
+<li>Controle de metas e desempenho</li>
+</ul>
 </div>
 
-<div class="card">
 <h2>🧠 Tecnologias</h2>
-<p>Delphi, C++, PHP, JavaScript, SQL Server, Firebird, MySQL</p>
+
+<div class="card">
+<span class="badge">Delphi</span>
+<span class="badge">C++</span>
+<span class="badge">C#</span>
+<span class="badge">PHP</span>
+<span class="badge">JavaScript</span>
+<span class="badge">Node.js</span>
+<span class="badge">TypeScript</span>
+<br><br>
+<span class="badge">SQL Server</span>
+<span class="badge">Firebird</span>
+<span class="badge">MySQL</span>
+<span class="badge">PostgreSQL</span>
+<br><br>
+<span class="badge">Git</span>
+<span class="badge">SVN</span>
+<span class="badge">AWS</span>
+<span class="badge">Azure</span>
+<span class="badge">REST API</span>
+</div>
+
+<h2>📫 Contato</h2>
+
+<div class="card">
+<p>Email: alexandre.o.albuquerque@gmail.com</p>
 </div>
 
 </div>
